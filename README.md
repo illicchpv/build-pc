@@ -1,3 +1,5 @@
+- github  [по ссылке](https://github.com/illicchpv/build-pc) 
+
 ## Урок 1. [Аккордеон](https://glo-academy.org/jspc_lesson_1) 
 
 ### материалы для самостоятельного изучения
