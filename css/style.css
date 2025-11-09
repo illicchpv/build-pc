@@ -571,6 +571,7 @@ progress::-moz-progress-value {
     padding: 9rem 9.5rem;
     background: #2C2C2C;
     text-align: center;
+    position: relative;
 }
 
 .modal__header {
@@ -620,6 +621,17 @@ progress::-moz-progress-value {
 
 .modal__button {
     background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+}
+
+.modal__close {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    font-size: 2rem;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    font-size: 50px;
 }
 
 .active {
