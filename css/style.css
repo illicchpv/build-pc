@@ -643,6 +643,14 @@ progress::-moz-progress-value {
     height: 100% !important;
 }
 
+.timer--end {
+  color: red;
+  .timer__text {
+    color: red;
+    opacity: 1;
+  }
+}
+
 /*сетка*/
 @media (max-width: 108em) {
     html {
