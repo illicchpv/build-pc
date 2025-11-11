@@ -601,6 +601,11 @@ progress::-moz-progress-value {
     line-height: 160%;
     color: var(--text-white-color);
     opacity: 0.8;
+
+    &::placeholder {
+        color: var(--text-white-color);
+        opacity: 0.8;
+    }
 }
 
 .modal__input input {
@@ -631,7 +636,7 @@ progress::-moz-progress-value {
     cursor: pointer;
     background: transparent;
     border: none;
-    font-size: 50px;
+    font-size: 4em;
 }
 
 .active {
