@@ -210,7 +210,8 @@ input {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 279px;
+    width: fit-content;
+    gap: 10px;    
 }
 
 .course__number {
